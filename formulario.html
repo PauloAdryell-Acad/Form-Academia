@@ -1,0 +1,30 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Academia</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Preencha o formulario</h1>
+	<form method="post">
+		<h2>Nome:</h2><input type="text" name="nome" id="nome">
+		<h2>Idade:</h2><input type="number" name="idade" id="idade">
+		<h2>Altura:</h2><input type="number" name="altura" id="altura">
+		<h2>Peso:</h2><input type="number" name="peso" id="peso">
+		<h2>Sexo:</h2>
+		<select name="sexo" id="sexo">
+			<option value="masculino">Masculino</option>
+			<option value="feminino">Feminino</option>
+		</select>
+		<h2>Objetivo:</h2>
+		<select name="objetivo" id="objetivo">
+			<option value="Massa Magra">Ganhar massa magra</option>
+			<option value="Saúde">Manter-se saudavel</option>
+			<option value="+Peso">Ganhar Peso</option>
+			<option value="-Peso">Emagrecer</option>
+		</select>
+		<input type="button" onclick="getDados()" value="click">
+	</form>
+<script type="text/javascript" src="code.js"></script>
+</body>
+</html>
